@@ -1,4 +1,6 @@
-test/
+# ignore all files in the test folder
+test/*
+# except for the following images
 ! test/00b3507842c0e0e8f11bad68feb5fb10089a2840.tif
 ! test/0000ec92553fda4ce39889f9226ace43cae3364e.tif
 ! test/000c8db3e09f1c0f3652117cf84d78aae100e5a7.tif
@@ -10,7 +12,7 @@ test/
 ! test/00a04c277c1a4bd14b7636d4c1c346d098a0f805.tif
 ! test/00a8ee1938f95219182f3ec07506ec8e496b4ce3.tif
 
-train/
+train/*
 ! train/000b666f7b5f03e81937cb12b3a1c8c279b08292.tif
 ! train/000c3d0468a1a0a7a35a2e453f4b891b3a4e7fb6.tif
 ! train/000c4f225ec3f4d1eaa986d75596cc71e10568b6.tif
