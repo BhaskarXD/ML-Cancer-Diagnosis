@@ -13,5 +13,4 @@ The dataset consists of 220k training images and 57k evaluation images, focusing
 3. Follow instructions in the documentation for running the project.
 
 ## Python script 
-* python main.py --dataset pathology --bias
- 0 --num_workers 10 --cmax 0 --num_rounds 50 --num_iters 5 --gpu 0 --aggregation fedsgd --exp train_patho
+* python main.py --dataset pathology --bias 0 --num_workers 20 --cmax 0 --num_rounds 150 --num_iters 10 --gpu 0 --aggregation fedsgd --exp train_patho  

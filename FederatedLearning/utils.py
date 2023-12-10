@@ -88,7 +88,7 @@ def load_data(dataset_name):
         train_csv = r'C:\Users\hp\Documents\A1 CSDS Assignments\btp\NonFederated ML model\train_labels.csv'
         train_root = r'D:\btp data\train'
 
-        subset_size = 30000  # Number of random samples to include for training
+        subset_size = 100000  # Number of random samples to include for training
         if train:
             train_dataset = custom_dataset.CustomPathologyDataset(train_csv, train_root, transform=transform, train=train, subset_size=subset_size)
         else:

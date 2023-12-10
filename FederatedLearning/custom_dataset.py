@@ -17,7 +17,7 @@ class CustomPathologyDataset(Dataset):
         if self.train:
             self.data = self.data.sample(n=self.subset_size, random_state=42)
         else:
-            self.data = self.data.sample(n=3000, random_state=42)
+            self.data = self.data.sample(n=5000, random_state=42)
 
     def __len__(self):
         return len(self.data)

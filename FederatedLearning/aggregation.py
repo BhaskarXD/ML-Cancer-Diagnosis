@@ -23,7 +23,7 @@ def FEDSGD(device, lr, grad_list, net, wts):
 
 
 ##FoolsGold
-def foolsgold(device, lr, grad_list, net):
+def foolsgold(device, lr, grad_list, net, cmax):
     start = time.time()    
     param_list = torch.stack([(torch.cat([xx.reshape((-1)) for xx in x], dim=0)).squeeze(0) for x in grad_list])
     num_workers = len(param_list)
