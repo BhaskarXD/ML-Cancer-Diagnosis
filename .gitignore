@@ -1,3 +1,5 @@
+.ipynb_checkpoints/
+
 # ignore all files in the test folder
 test/*
 # except for the following images
